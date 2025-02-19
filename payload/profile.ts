@@ -6,7 +6,6 @@ import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/sample_tux.png';
 
 const profile: IProfile.Payload = {
-  disable: false,
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
@@ -34,11 +33,11 @@ const profile: IProfile.Payload = {
       icon: faBloggerB,
     },
   ],
-  notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,        
-  },
+  // notice: {
+  //   title:
+  //     "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+  //   icon: faBell,
+  // },
 };
 
 export default profile;
