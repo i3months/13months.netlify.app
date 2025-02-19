@@ -20,9 +20,8 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
+      title: '010-9947-1018',
+      icon: faPhone      
     },
     {
       link: 'https://github.com/i3months',
