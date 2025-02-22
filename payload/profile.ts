@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '정준모',
-    small: '(jmj)',
+    small: '(13months)',
   },
   contact: [
     {
