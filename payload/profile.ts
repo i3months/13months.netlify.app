@@ -4,11 +4,12 @@ import { faGithub, faBlogger, faBloggerB } from '@fortawesome/free-brands-svg-ic
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/sample_tux.png';
+import profileImage from '../asset/profile.jpg';
 
 const profile: IProfile.Payload = {
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image,
+  image: profileImage,
   name: {
     title: '정준모',
     small: '(13months)',
