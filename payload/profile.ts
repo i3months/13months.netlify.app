@@ -1,14 +1,11 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faBlogger, faBloggerB } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBloggerB } from '@fortawesome/free-brands-svg-icons';
 
-import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
 import profileImage from '../asset/profile.jpg';
 
 const profile: IProfile.Payload = {
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image: profileImage,
   name: {
     title: '정준모',
