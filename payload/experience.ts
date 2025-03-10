@@ -31,7 +31,6 @@ const experience: IExperience.Payload = {
             'ASD 선별 AI 통합 플랫폼 시스템 기능 개발 - 신규 서비스 개발',
             'ETRI 스쿨 홈페이지 기능 개선 - 학생 및 교수 데이터 통합 및 백오피스 개발',
             '드론 임무 데이터 관리 시스템 기능 개발 - 드론 데이터 저장 스케쥴러 로직 개발',
-            '초고성능컴퓨팅 자원 신청 서비스 기능 개선 - 대시보드 및 백오피스 개발',
             '국가슈퍼컴퓨팅센터 홈페이지 기능 개선 - KSC 홈페이지 유지보수 및 추가 개발',
           ],
           skillKeywords: ['Java', 'Spring', 'Spring Boot', 'Spring Security', 'JPA', 'Spring Data JPA', 'jQuery', 'JavaScript', 'Vue', 'React', 'Docker', 'Docker Compose', 'FastAPI', 'MySQL', 'MariaDB'],
