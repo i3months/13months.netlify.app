@@ -5,45 +5,37 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
+      title: '아이와즈 (IWAZ)',
       positions: [
         {
-          title: 'System Engineer',
-          startedAt: '1996-05',
-          descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+          title: '지능기술사업부 사원 - 웹 개발자',
+          startedAt: '2024-02',
+          endedAt: '2025-03',
+          descriptions: [   
+            '한국화학연구원 화학정보플랫폼 서비스 기능 개발 - 쿼리 튜닝, 데이터 이관 및 시각화',
+            '커뮤니케이션북스 서비스 기능 개선 - 용지관리 api 개발 및 데이터 모델링',
+            'DBpia 서비스 기능 개선 - 백오피스 및 DBpia 시스템 유지보수 및 추가 개발',
+            'DBpia Content Maker (DCM) 논문 메타 제작 플랫폼 개발 - 신규 서비스 개발',            
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
-        },
-        {
-          title: 'System Engineer Intern',
-          startedAt: '1996-02',
-          endedAt: '1996-05',
-          descriptions: [
-            'Assisted senior engineers in maintaining and updating kernel patches for Linux distributions',
-            'Supported deployment and integration tasks for Linux server environments',
-            'Conducted research on Linux kernel security practices and presented findings to the team',
-          ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Support', 'Research'],
+          skillKeywords: ['Java', 'Spring', 'Spring Boot', 'Spring Batch', 'Spring Security', 'AWS', 'Redis', 'NGINX', 'Elasticsearch', 'MariaDB', 'Tibero', 'SQL Server', 'jQuery', 'JavaScript'],
         },
       ],
     },
     {
-      title: 'Open Source Community',
+      title: '카이런소프트 (CHIRON SOFT)',
       positions: [
         {
-          title: 'System Advocate and Developer',
-          startedAt: '2010-06',
-          endedAt: '2018-01',
+          title: '연구개발부 연구원 - 웹 개발자',
+          startedAt: '2023-03',
+          endedAt: '2024-02',
           descriptions: [
-            'Promoted the use and development of Linux globally.',
-            'Developed automated scripts to streamline system configuration.',
-            'Facilitated live patching systems, reducing downtime.',
+            'ASD 선별 AI 통합 플랫폼 시스템 기능 개발 - 신규 서비스 개발',
+            'ETRI 스쿨 홈페이지 기능 개선 - 학생 및 교수 데이터 통합 및 백오피스 개발',
+            '드론 임무 데이터 관리 시스템 기능 개발 - 드론 데이터 저장 스케쥴러 로직 개발',
+            '초고성능컴퓨팅 자원 신청 서비스 기능 개선 - 대시보드 및 백오피스 개발',
+            '국가슈퍼컴퓨팅센터 홈페이지 기능 개선 - KSC 홈페이지 유지보수 및 추가 개발',
           ],
-          skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
+          skillKeywords: ['Java', 'Spring', 'Spring Boot', 'Spring Security', 'JPA', 'Spring Data JPA', 'jQuery', 'JavaScript', 'Vue', 'React', 'Docker', 'Docker Compose', 'FastAPI', 'MySQL', 'MariaDB'],
         },
       ],
     },
