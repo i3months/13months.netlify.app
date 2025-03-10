@@ -17,7 +17,7 @@ import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Article } from '../component/article';
 
-function Yosume() {
+function Resume() {
   return (
     <>
       <NextSeo {...Payload._global.seo} />
@@ -36,10 +36,10 @@ function Yosume() {
         <Article.Component payload={Payload.article} />
         <Education.Component payload={Payload.education} />
         <Etc.Component payload={Payload.etc} />
-        <Footer.Component payload={Payload.footer} />
+        {/* <Footer.Component payload={Payload.footer} /> */}
       </Container>
     </>
   );
 }
 
-export default Yosume;
+export default Resume;
