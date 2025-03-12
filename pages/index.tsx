@@ -32,13 +32,14 @@ function Resume() {
         <Skill.Component payload={Payload.skill} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
+        <Award.Component payload={Payload.award} />    
+        <Education.Component payload={Payload.education} />    
+        <Etc.Component payload={Payload.etc} />  
+        <Article.Component payload={Payload.article} />                  
+
         {/* <OpenSource.Component payload={Payload.openSource} /> */}
-        <Award.Component payload={Payload.award} />
         {/* <Presentation.Component payload={Payload.presentation} /> */}
-        <Article.Component payload={Payload.article} />
-        <Education.Component payload={Payload.education} />
-        <Etc.Component payload={Payload.etc} />
-        {/* <Footer.Component payload={Payload.footer} /> */}
+        {/* <Footer.Component payload={Payload.footer} /> */}    
       </Container>
     </>
   );
