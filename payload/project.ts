@@ -92,8 +92,8 @@ const project: IProject.Payload = {
           descriptions: [
             { content: 'pdfbox 활용 PDF 분할 알고리즘 개발 - 분할 시 입력한 PDF의 논리 페이지와 물리 페이지가 구분되도록' },
             { content: 'Spring Batch 활용 ERP, DCM 서비스 연동 - Job, Step 기반 배치 비즈니스 로직 작성' },                        
-            { content: '논문 임시 저장 시스템 개발 - 일정 주기로 캐시 서버에 입력 내용 저장' },                                                         
-            { content: 'Elasticsearch 활용 이메일 기반 논문 저자 탐색 기능 개발' },
+            { content: '논문 임시 저장 시스템 개발 - 일정 주기로 입력 내용 저장' },                                                         
+            { content: 'Elasticsearch 활용 이메일 기반 논문 저자 검색 기능 개발' },
           ],         
         },  
         {
@@ -101,7 +101,7 @@ const project: IProject.Payload = {
             '업무 효율 증진 및 서비스 소요 기간 단축',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '논문 제작 시스템 개편 - 메타 작업 시간 감소 (30편 논문 기준 30분 -> 15분)' },
+            { content: '논문 제작 시스템 개편 - 메타 작업 시간 감소 (50편 논문 기준 30분 -> 15분)' },
             { content: '배치 시스템 개편 - 입력한 논문이 서비스되기까지 걸리는 시간 단축 (3일 -> 1일)' },                        
           ],         
         },  
@@ -132,6 +132,10 @@ const project: IProject.Payload = {
         {
           content:
             'FastAPI 기반 JWT 인증 및 피실험자, 검사 결과 CRUD 기능 개발',
+        },
+        {
+          content:
+            'Vue 기반 프론트엔드 구축 및 화면 개발',
         },
       ],
     },
@@ -199,7 +203,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '회원 가입 시 이메일 인증 단계 추가 - 인증 코드 유효기간 설정',
+            '회원 가입 시 이메일 인증 단계 추가 - 인증 코드 유효기간 설정 및 보안 처리',
         },
         {
           content:

@@ -3,7 +3,7 @@ import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'Resume:13months';
-const description = "13month's Resume";
+const description = "13months's Resume";
 
 export const _global: IGlobal.Payload = {
   favicon,
