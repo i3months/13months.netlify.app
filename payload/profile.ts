@@ -13,8 +13,8 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'waysoleward01@naver.com',
-      link: 'mailto:waysoleward01@naver.com',
+      title: 'jeongjoonmo.dev@gmail.com',
+      link: 'mailto:jeongjoonmo.dev@gmail.com',
       icon: faEnvelope,
     },
     {

@@ -13,12 +13,12 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'waysoleward01@naver.com',
-      link: 'mailto:waysoleward01@naver.com',
+      title: 'jeongjoonmo.dev@gmail.com',
+      link: 'mailto:jeongjoonmo.dev@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: '010-9947-1018',
+      title: '+82) 010-9947-1018',
       icon: faPhone      
     },
     {
@@ -26,6 +26,7 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
+      title: '(Korean Blog) https://13months.tistory.com',
       link: 'https://13months.tistory.com',
       icon: faBloggerB,
     },
