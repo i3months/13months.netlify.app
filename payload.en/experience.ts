@@ -5,7 +5,7 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'IWAZ',
+      title: 'IWAZ (South Korea)',
       positions: [
         {
           title: 'Intelligent Technology Department Staff - Web Developer',
@@ -21,7 +21,7 @@ const experience: IExperience.Payload = {
       ],
     },
     {
-      title: 'CHIRON SOFT',
+      title: 'CHIRON SOFT (South Korea)',
       positions: [
         {
           title: 'Research & Development Department Researcher - Web Developer',

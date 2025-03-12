@@ -4,105 +4,105 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '한국화학연구원 화학정보플랫폼 서비스 기능 개발',
+      title: 'Developed features for the Chemical Information Platform Service',
       startedAt: '2025-01',
       endedAt: '2025-03',
-      where: '아이와즈 (IWAZ)',
+      where: 'IWAZ (South Korea)',
       descriptions: [
         {
-          content:
-            'TIBERO로 구축된 기존 데이터를 MariaDB로 이관',
+          content:            
+            'Migrated data from TIBERO to MariaDB.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '이관한 데이터 인덱싱 및 통계 데이터 파티셔닝 진행' }
+            { content: 'Indexing migrated data and implemented partitioning for statistical data.' }
           ],
         },
         {
           content:
-            'TIBERO -> MariaDB 쿼리 튜닝 진행',
+            'Optimized queries from TIBERO to MariaDB.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'WITH RECURSIVE, SORT_PATH 사용 계층 쿼리 구현 및 정렬' },
-            { content: '고비용 통계 쿼리 리팩토링 및 성능 최적화 (873.231ms -> 214.245ms)' },                        
+            { content: 'Implemented hierarchical queries and sorting using WITH RECURSIVE and SORT_PATH.' },
+            { content: 'Refactored high-cost statistical queries, improving performance (873.231ms → 214.245ms).' },                                    
           ]
         },
         {
           content:
-            'ApexChart 활용 통계 데이터 시각화 및 즐겨찾기, 통계표 검색 기능 구현',
+            'Visualized statistical data using ApexChart and implemented favorites and table search features.',
         },
       ],
     },
     {
-      title: 'DBpia 서비스 기능 개선 ',
+      title: 'Enhanced functionalities of the DBpia service',
       startedAt: '2024-04',
       endedAt: '2024-12',
-      where: '아이와즈 (IWAZ)',
+      where: 'IWAZ (South Korea)',
       descriptions: [
         {
-          content:
-            '플로팅 배너 부분에 Redis 도입, 백오피스와 DBpia 서비스 연결 및 api 개발',            
+          content:            
+            'Integrated Redis for floating banners and developed APIs to connect the back office with the DBpia service.',
         },
         {
           content:
-            '통합검색 부분 Elasticsearch 쿼리 및 기존 매핑 수정, 논문 정보 인덱스 재구성',
+            'Modified Elasticsearch queries and existing mappings for the unified search feature, restructured the research paper index.',
         },
         {
           content:
-            '실행 계획 분석 및 재인덱싱, 고비용 쿼리 튜닝 (4481.926ms -> 1111.281ms)',
+            'Analyzed execution plans, reindexed data, and optimized high-cost queries (4481.926ms → 1111.281ms).',
         },
         {
           content:
-            'DBpia 서비스 운영 지원 - 엑셀 다운로드 버그 수정, PDF 다운로드 서버 관리, 장기 미접속자 처리',
+            'Maintained DBpia service operations – Fixed Excel download bugs, managed the PDF download server, and handled long-term inactive users.',
         },
       ],
     },
     {
-      title: 'DBpia Content Maker (DCM) 논문 메타 제작 플랫폼 개발',
+      title: 'Developed DBpia Content Maker (DCM)',
       startedAt: '2024-02',
       endedAt: '2024-12',
-      where: '아이와즈 (IWAZ)',
+      where: 'IWAZ (South Korea)',
       descriptions: [
         {
           content:
-            'C#, C++로 작성된 레거시 소스코드 분석 및 웹 기반 신규 개편 시스템 설계',
+            'Analyzed legacy source code written in C# and C++ and designed a new web-based system.',
         },  
         {
           content:
-            '원활한 협업을 위한 Git Flow 전략 사용 및 사용자 요구사항, 현행 시스템 프로세스 분석',
+            'Utilized Git Flow strategy for seamless collaboration, analyzed user requirements and system processes.',
         },
         {
           content:
-            '프로젝트 설정 및 운영',
+            'Set up and managed project configurations and operations.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Custom Filter, Authenticator 등 스프링 시큐리티 설정 및 LDAP 기반 AD 계정 로그인 환경 구축' },
-            { content: 'DataSource 설정 - 특정 TLS 버전이 SQL SERVER 2005와 호환되지 않는 문제 해결' },                        
-            { content: 'Spring Batch 최신 버전이 SQL SERVER 2005의 시퀀스와 호환되지 않는 문제 해결' },                                                         
-            { content: '인증서 및 도메인 구축, NGINX 활용 리버스 프록시 기반 개발 서버 및 운영 서버 라우팅' },
-            { content: 'Windows Server기반 Tomcat 구축 및 서비스 운영 - 네트워크 드라이브 관련 권한 문제 해결 (심볼릭 링크)' },
-            { content: 'Tomcat JVM 메모리 설정 및 운영서버, 개발서버 이중화' },
-            { content: '모의 해킹 처리 - XSS, CSRF, 민감한 정보 마스킹 등 보안 관련 처리' },
-            { content: 'SQL SERVER의 LINKED SERVER 활용 서로 다른 위치에 있는 프로시저 원격 호출' },
+            { content: 'Configured Spring Security with custom filters and authenticators, implemented LDAP-based login.' },
+            { content: 'Resolved DataSource TLS compatibility issue with SQL Server 2005.' },                        
+            { content: 'Fixed incompatibility between the latest Spring Batch version and SQL Server 2005 sequences.' },                                                         
+            { content: 'Established certificates and domains, set up reverse proxy routing for development and production servers using NGINX.' },
+            { content: 'Deployed and managed Tomcat on Windows Server, resolved symbolic link-related network drive permission issues.' },
+            { content: 'Configured Tomcat JVM memory and implemented redundancy for production and development servers.' },
+            { content: 'Handled penetration testing issues, including XSS, CSRF, and sensitive data masking.' },
+            { content: "Utilized SQL Server's Linked Server to remotely call stored procedures from different locations." },
           ],         
         },    
         {
           content:
-            '논문 메타 제작 시스템 개발',
+            'Research Paper Metadata Production System Development',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'pdfbox 활용 PDF 분할 알고리즘 개발 - 분할 시 입력한 PDF의 논리 페이지와 물리 페이지가 구분되도록' },
-            { content: 'Spring Batch 활용 ERP, DCM 서비스 연동 - Job, Step 기반 배치 비즈니스 로직 작성' },                        
-            { content: '논문 임시 저장 시스템 개발 - 일정 주기로 입력 내용 저장' },                                                         
-            { content: 'Elasticsearch 활용 이메일 기반 논문 저자 검색 기능 개발' },
+            { content: 'Developed a PDF splitting algorithm using PDFBox, ensuring differentiation between logical and physical pages in pdf.' },
+            { content: 'Integrated ERP and DCM services using Spring Batch, implemented business logic based on Job / Step.' },                        
+            { content: 'Developed a temporary storage system for research papers to periodically save input data.' },                                                         
+            { content: 'Implemented an email-based research paper author search feature using Elasticsearch.' },
           ],         
         },  
         {
           content:
-            '업무 효율 증진 및 서비스 소요 기간 단축',
+            'Efficiency Improvements & Service Optimization',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '논문 제작 시스템 개편 - 메타 작업 시간 감소 (50편 논문 기준 30분 -> 15분)' },
-            { content: '배치 시스템 개편 - 입력한 논문이 서비스되기까지 걸리는 시간 단축 (3일 -> 1일)' },                        
+            { content: 'Revamped the research paper production system, reducing metadata processing time (30 min → 15 min for 50 papers).' },
+            { content: 'Optimized batch processing, cutting publication time (3 days → 1 day).' },                        
           ],         
         },  
       ],
