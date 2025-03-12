@@ -65,5 +65,5 @@ function getFormattingExperienceTotalDuration(payload: IExperience.Payload) {
     Duration.fromMillis(0),
   );
 
-  return totalExperience.toFormat(`총 ${Util.LUXON_DATE_FORMAT.DURATION_KINDNESS}`);
+  return totalExperience.toFormat(`${Util.LUXON_DATE_FORMAT.DURATION_KINDNESS}`);
 }

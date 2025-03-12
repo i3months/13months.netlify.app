@@ -8,9 +8,9 @@ enum LUXON_DATE_FORMAT {
   YYYY_DOT_LL_DOT_DD = 'yyyy. LL. dd',
   KINDNESS_FULL = 'DDDD',
 
-  DURATION_KINDNESS = 'y년 M개월',
-  DURATION_KINDNESS_ONLY_MONTH = 'M개월',
-  DURATION_KINDNESS_ONLY_YEAR = 'y년',
+  DURATION_KINDNESS = "y'Y' M'M'",
+  DURATION_KINDNESS_ONLY_MONTH = "M'M'",
+  DURATION_KINDNESS_ONLY_YEAR = "y'Y'",
 }
 
 function getFormattingDuration(from: DateTime, to: DateTime = DateTime.local()) {
