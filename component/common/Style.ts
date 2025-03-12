@@ -8,12 +8,13 @@ type TStyleKey =
   | 'sign'
   | 'profileImg'
   | 'footerCover'
+  | 'articleCover' // footer 대신 article을 마지막 요소로 사용
   | 'footer'
   | 'skillKeywordBadge';
 
 export const Style: Record<TStyleKey, CSSProperties> = {
   blue: {
-    color: '#3c78d8',
+    color: '		#2997fb',
   },
 
   gray: {
@@ -43,6 +44,10 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     paddingRight: 0,
     marginTop: '50px',
     height: '80px',
+  },
+
+  articleCover: {
+    marginBottom: '100px'
   },
 
   footer: {

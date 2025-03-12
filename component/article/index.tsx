@@ -5,6 +5,8 @@ import { EmptyRowCol } from '../common';
 import { CommonSection } from '../common/CommonSection';
 import { CommonDescription } from '../common/CommonDescription';
 import Util from '../common/Util';
+import { Style } from '../common/Style';
+import { Col } from 'reactstrap';
 
 type Payload = IArticle.Payload;
 
@@ -19,9 +21,11 @@ export const Article = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="ARTICLE">
-      <ArticleRow payload={payload} />
-    </CommonSection>
+    <Col style={Style.articleCover}>
+      <CommonSection title="ARTICLE">
+        <ArticleRow payload={payload} />
+      </CommonSection>
+    </Col>    
   );
 }
 
