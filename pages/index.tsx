@@ -6,10 +6,7 @@ import { NextSeo } from 'next-seo';
 import { Education } from '../component/education';
 import { Etc } from '../component/etc';
 import { Experience } from '../component/experience';
-import { Footer } from '../component/footer';
 import { Introduce } from '../component/introduce';
-import { OpenSource } from '../component/openSource';
-import { Presentation } from '../component/presentation';
 import { Award } from '../component/award';
 import { Profile } from '../component/profile';
 import { Project } from '../component/project';
@@ -32,14 +29,14 @@ function Resume() {
         <Skill.Component payload={Payload.skill} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
-        <Award.Component payload={Payload.award} />    
-        <Education.Component payload={Payload.education} />    
-        <Etc.Component payload={Payload.etc} />  
-        <Article.Component payload={Payload.article} />                  
+        <Award.Component payload={Payload.award} />
+        <Education.Component payload={Payload.education} />
+        <Etc.Component payload={Payload.etc} />
+        <Article.Component payload={Payload.article} />
 
         {/* <OpenSource.Component payload={Payload.openSource} /> */}
         {/* <Presentation.Component payload={Payload.presentation} /> */}
-        {/* <Footer.Component payload={Payload.footer} /> */}    
+        {/* <Footer.Component payload={Payload.footer} /> */}
       </Container>
     </>
   );

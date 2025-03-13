@@ -47,7 +47,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
   },
 
   articleCover: {
-    marginBottom: '100px'
+    marginBottom: '100px',
   },
 
   footer: {

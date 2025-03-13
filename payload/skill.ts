@@ -61,11 +61,7 @@ const intrastructureDatabase: ISkill.Skill = {
 };
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    languages,
-    frameworkLibrary,
-    intrastructureDatabase,
-  ],
+  skills: [languages, frameworkLibrary, intrastructureDatabase],
 };
 
 export default skill;

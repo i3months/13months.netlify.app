@@ -1,4 +1,5 @@
 import { PropsWithChildren } from 'react';
+import { Col } from 'reactstrap';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 import { IArticle } from './IArticle';
 import { EmptyRowCol } from '../common';
@@ -6,7 +7,6 @@ import { CommonSection } from '../common/CommonSection';
 import { CommonDescription } from '../common/CommonDescription';
 import Util from '../common/Util';
 import { Style } from '../common/Style';
-import { Col } from 'reactstrap';
 
 type Payload = IArticle.Payload;
 
@@ -25,7 +25,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
       <CommonSection title="ARTICLE">
         <ArticleRow payload={payload} />
       </CommonSection>
-    </Col>    
+    </Col>
   );
 }
 

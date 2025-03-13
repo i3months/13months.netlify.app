@@ -6,9 +6,7 @@ import Util from '../common/Util';
 import { EmptyRowCol } from '../common';
 import { IAward } from './IAward';
 
-export default function AwardRow({
-  payload,
-}: PropsWithChildren<{ payload: IAward.Payload }>) {
+export default function AwardRow({ payload }: PropsWithChildren<{ payload: IAward.Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => {

@@ -5,7 +5,6 @@ import { IProfile } from '../component/profile/IProfile';
 import profileImage from '../asset/profile.jpg';
 
 const profile: IProfile.Payload = {
-
   image: profileImage,
   name: {
     title: '정준모',
@@ -19,7 +18,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: '010-9947-1018',
-      icon: faPhone      
+      icon: faPhone,
     },
     {
       link: 'https://github.com/i3months',

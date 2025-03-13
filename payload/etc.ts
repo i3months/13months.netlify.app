@@ -10,9 +10,9 @@ const etc: IEtc.Payload = {
       startedAt: '2024-11',
     },
     {
-      title: "제54회 SQL 개발자 (SQLD)",
+      title: '제54회 SQL 개발자 (SQLD)',
       subTitle: '',
-      startedAt: '2024-09',      
+      startedAt: '2024-09',
     },
   ],
 };
