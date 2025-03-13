@@ -1,5 +1,5 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faBloggerB } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBloggerB, faKorvue } from '@fortawesome/free-brands-svg-icons';
 
 import { IProfile } from '../component/profile/IProfile';
 import profileImage from '../asset/profile.jpg';
@@ -29,6 +29,11 @@ const profile: IProfile.Payload = {
       title: '(Korean Blog) https://13months.tistory.com',
       link: 'https://13months.tistory.com',
       icon: faBloggerB,
+    },
+    {
+      title: '(Korean Resume) https://resume.13months.dev',
+      link: 'https://resume.13months.dev',
+      icon: faKorvue,
     },
   ],
   // notice: {
