@@ -29,8 +29,8 @@ const profile: IProfile.Payload = {
       icon: faBloggerB,
     },
     {
-      title: '(영문 이력서) https://resume.13months.dev/en',
-      link: 'https://resume.13months.dev/en',
+      title: '(영문 이력서) https://13months.netlify.app/en',
+      link: 'https://13months.netlify.app/en',
       icon: faEtsy,
     },
   ],

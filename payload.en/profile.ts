@@ -31,8 +31,8 @@ const profile: IProfile.Payload = {
       icon: faBloggerB,
     },
     {
-      title: '(Korean Resume) https://resume.13months.dev',
-      link: 'https://resume.13months.dev',
+      title: '(Korean Resume) https://13months.netlify.app',
+      link: 'https://13months.netlify.app',
       icon: faKorvue,
     },
   ],
