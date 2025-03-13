@@ -5,15 +5,15 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: '(2023.12) 2023 NTIS 성과보고회 현장속으로!',
+      content: '(2023.12) NTIS Performance Report On-Site Coverage!',
       href: 'https://www.youtube.com/watch?v=-YzVHPDvi2E',
     },
     {
-      content: '(2023.07) 2023 환경데이터 활용 및 분석 공모전 "환경데이터 활용" 아이디어 기획 부문 대상 온리',
+      content: '(2023.07) Environmental Data Utilization and Analysis Competition – Grand Prize in the "Environmental Data Utilization" Idea Planning Category',
       href: 'https://www.youtube.com/watch?v=FGyaAagh1GY',
     },
     {
-      content: '(2023.06) 2023 환경데이터 공모전 시상…“탄소중립·자원순환 등 ESG테크 향연”',
+      content: '(2023.06) Environmental Data Competition Awards – Showcasing ESG Tech Innovations in Carbon Neutrality and Resource Circulation',
       href: 'https://v.daum.net/v/20230629151403309',
     },    
   ],
