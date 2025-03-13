@@ -18,7 +18,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: '+82) 010-9947-1018',
+      title: '+82) -',
       icon: faPhone      
     },
     {
