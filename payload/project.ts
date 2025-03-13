@@ -178,7 +178,7 @@ const project: IProject.Payload = {
               { content: '프로젝트 단위로 변화 감지, 변화가 있는 경우만 업데이트' },
               { content: 'AtomicBoolean 활용 한 번에 하나의 스케쥴러만 실행될 수 있도록 제한' },
               { content: 'CompletableFuture 활용 스케쥴러 작업 비동기 처리' },
-              { content: 'JVM 웜업 고려 성능 벤치마킹 테스트 진행' },
+              { content: 'JVM 웜업을 고려한 성능 벤치마킹 테스트 진행' },
             ]
         },
         {

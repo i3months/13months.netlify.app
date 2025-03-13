@@ -108,110 +108,110 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'ASD 선별 AI 통합 플랫폼 시스템 기능 개발',
+      title: 'Developed the ASD Screening AI Integrated Platform System',
       startedAt: '2023-10',
       endedAt: '2024-02',
-      where: '카이런소프트 (CHIRON SOFT)',
+      where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
           content:
-            'SurveyJS 활용 조건부 분기 설문지 구현',
+            'Implemented conditional branching surveys using SurveyJS.',
         },
         {
           content:
-            'websocket 활용 비디오, 음성 데이터 전송 - AI 추론 서버와 실시간 통신',
+            'Transmitted video and audio data via WebSocket for real-time communication with the AI inference server.',
         },
         {
           content:
-            'ApexChart, d3.js 활용 추론 결과 실시간 시각화',
+            'Visualized inference results in real-time using ApexCharts and D3.js.',
         },
         {
           content:
-            'Docker 활용 시스템 실행 환경 구축 및 이미지 배포',
+            'Set up system execution environment and deployed images using Docker.',
         },
         {
           content:
-            'FastAPI 기반 JWT 인증 및 피실험자, 검사 결과 CRUD 기능 개발',
+            'Developed JWT authentication and CRUD functionality for participants and test results using FastAPI.',
         },
         {
           content:
-            'Vue 기반 프론트엔드 구축 및 화면 개발',
+            'Built and developed the frontend using Vue.',
         },
       ],
     },
     {
-      title: 'ETRI 스쿨 홈페이지 기능 개선',
+      title: 'Enhanced functionalities of the ETRI School website',
       startedAt: '2023-08',
       endedAt: '2023-10',
-      where: '카이런소프트 (CHIRON SOFT)',
+      where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
           content:
-            '회원으로 가입하지 않은 학생, 교수 데이터를 하나의 테이블으로 통합',
+            'Unified non-registered student and faculty data into a single table.',
         },
         {
           content:
-            'Vue Quasar 활용 게시판 Pagination 및 단계별 회원가입 기능 구현',
+            'Implemented bulletin board pagination and step-by-step registration using Vue Quasar.',
         },
         {
           content:
-            'Spring Boot, JPA 기반 백오피스 개발 및 ETRI 스쿨 서비스와 연동',
+            'Developed a Spring Boot and JPA-based back-office system and integrated with the ETRI School service.',
         },
         {
           content:
-            'ETRI 내 서버 컴퓨터에 Docker 기반 시스템 배포 및 운영',
+            "Deployed and managed the system on ETRI's internal servers using Docker.",
         },
       ],
     },
     {
-      title: '드론 임무 데이터 관리 시스템 기능 개발',
+      title: 'Developed the Drone Mission Data Management System',
       startedAt: '2023-05',
       endedAt: '2023-10',
-      where: '카이런소프트 (CHIRON SOFT)',
+      where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
           content:
-            '드론 데이터 저장 배치 비즈니스 로직 개발',
+            'Developed batch business logic for drone data storage.',
           weight: 'MEDIUM',
             descriptions: [
-              { content: 'dfs 방식으로 디렉토리 탐색 및 이미지 메타데이터 저장' },
-              { content: '프로젝트 단위로 변화 감지, 변화가 있는 경우만 업데이트' },
-              { content: 'AtomicBoolean 활용 한 번에 하나의 스케쥴러만 실행될 수 있도록 제한' },
-              { content: 'CompletableFuture 활용 스케쥴러 작업 비동기 처리' },
-              { content: 'JVM 웜업 고려 성능 벤치마킹 테스트 진행' },
+              { content: 'Traversed directories using DFS and stored image metadata.' },
+              { content: 'Detected changes at the project level and updated only modified data.' },
+              { content: 'Used AtomicBoolean api to ensure only one scheduler runs at a time.' },
+              { content: 'Handled scheduler tasks asynchronously with CompletableFuture api.' },
+              { content: 'Conducted performance benchmarking tests considering JVM warm-up.' },
             ]
         },
         {
           content:
-            'React 활용 이미지 데이터 지도 위 시각화',
+            'Visualized image data on a map using React.',
         },
         {
           content:
-            'docker-compose 활용 Frontend, Backend, Database를 하나로 묶어서 배포',
+            'Deployed Frontend, Backend, and Database as a unified system using docker-compose.',
         },
       ],
     },
     {
-      title: '국가슈퍼컴퓨팅센터 홈페이지 기능 개선',
+      title: 'Enhanced functionalities of the National Supercomputing Center website',
       startedAt: '2023-03',
       endedAt: '2023-05',
-      where: '카이런소프트 (CHIRON SOFT)',
+      where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
           content:
-            '메인 페이지 리뉴얼 및 백오피스 개발',
+            'Redesigned the main page and developed the back-office system.',
         },
         {
           content:
-            '회원 가입 시 이메일 인증 단계 추가 - 인증 코드 유효기간 설정 및 보안 처리',
+            'Added an email verification step for user registration, including security measures and expiration settings for verification codes.',
         },
         {
           content:
-            'd3.js 활용 슈퍼컴퓨터 사용량 통계 시각화 및 쿼리 튜닝 (6.376s -> 0.430s)',
+            'Visualized supercomputer usage statistics using D3.js and optimized queries (6.376s → 0.430s).',
         },
         {
           content:
-            'websocket 활용 접속한 사용자 대상 브로드캐스트 기능 구현',
+            'Implemented a WebSocket-based broadcast feature for connected users.',
         },
       ],
     },
