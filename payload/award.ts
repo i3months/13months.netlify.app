@@ -5,6 +5,19 @@ const presentation: IAward.Payload = {
 
   list: [
     {
+      title: '충남대학교 알고리즘 경진대회 - DevDay',
+      subTitle: '동상 2회 / 장려상 1회',
+      at: '2025-06',
+      descriptions: [
+        {
+          content: '전교생 대상 매년 상반기와 하반기에 시행되는 교내 알고리즘 대회',
+        },
+        {
+          content: '2025.06 동상 / 2022.06 동상 / 2021.11 장려상',
+        },
+      ],
+    },
+    {
       title: '제 11회 NTIS 정보활용 경진대회',
       subTitle: '대상 (과학기술정보통신부장관상) 수상',
       at: '2023-12',
@@ -31,26 +44,6 @@ const presentation: IAward.Payload = {
       descriptions: [
         {
           content: '"온실가스 배출 데이터를 활용한 기업별 탄소 배출량 분석 플랫폼 - CEAP" 기획',
-        },
-      ],
-    },
-    {
-      title: '충남대학교 알고리즘 경진대회 - DevDay',
-      subTitle: '동상 수상',
-      at: '2022-11',
-      descriptions: [
-        {
-          content: '전교생 대상 매년 상반기와 하반기에 시행되는 교내 알고리즘 대회',
-        },
-      ],
-    },
-    {
-      title: '충남대학교 알고리즘 경진대회 - DevDay',
-      subTitle: '장려상 수상',
-      at: '2022-06',
-      descriptions: [
-        {
-          content: '전교생 대상 매년 상반기와 하반기에 시행되는 교내 알고리즘 대회',
         },
       ],
     },
