@@ -5,6 +5,12 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: '카카오테크캠퍼스 3기',
+      subTitle: 'AWS, React, Typescript, FSD',
+      startedAt: '2025-4',
+      endedAt: '2025-11',
+    },
+    {
       title: '제43회 데이터분석 준전문가 (ADsP)',
       subTitle: '',
       startedAt: '2024-11',
