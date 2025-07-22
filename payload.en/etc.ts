@@ -7,7 +7,7 @@ const etc: IEtc.Payload = {
     {
       title: 'KakaoTechCampus 3rd Cohurt',
       subTitle: 'AWS, React, Typescript, Feature Sliced Design',
-      startedAt: '2025-4',
+      startedAt: '2025-04',
       endedAt: '2025-11',
     },
     {
