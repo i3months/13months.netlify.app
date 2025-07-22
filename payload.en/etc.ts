@@ -5,14 +5,20 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'KakaoTechCampus 3rd Cohurt',
+      subTitle: 'AWS, React, Typescript, Feature Sliced Design',
+      startedAt: '2025-4',
+      endedAt: '2025-11',
+    },
+    {
       title: '43rd Advanced Data Analytics Semi-Professional (ADsP)',
       subTitle: '',
       startedAt: '2024-11',
     },
     {
-      title: "54th Structured Query Language Developer (SQLD)",
+      title: '54th Structured Query Language Developer (SQLD)',
       subTitle: '',
-      startedAt: '2024-09',      
+      startedAt: '2024-09',
     },
   ],
 };
