@@ -5,19 +5,19 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '카카오테크캠퍼스 3기',
-      subTitle: 'AWS, React, Typescript, Feature Sliced Design',
+      title: '카카오테크캠퍼스 3기 - Frontend',
+      subTitle: 'Amazon Web Service / React / Typescript / Feature Sliced Design',
       startedAt: '2025-04',
       endedAt: '2025-11',
     },
     {
       title: '제43회 데이터분석 준전문가 (ADsP)',
-      subTitle: '',
+      subTitle: 'Advanced Data Analytics Semi-Professional',
       startedAt: '2024-11',
     },
     {
       title: '제54회 SQL 개발자 (SQLD)',
-      subTitle: '',
+      subTitle: 'Structured Query Language Developer',
       startedAt: '2024-09',
     },
   ],
