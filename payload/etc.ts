@@ -6,7 +6,7 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: '카카오테크캠퍼스 3기 - Frontend',
-      subTitle: 'Amazon Web Service / React / Typescript / Feature Sliced Design',
+      subTitle: 'Outstanding Kookies of Stage 2 (Top Performance Award)',
       startedAt: '2025-04',
       endedAt: '2025-11',
     },
