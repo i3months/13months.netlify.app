@@ -5,7 +5,7 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'KakaoTechCampus 3rd Cohurt - Frontend',
+      title: 'KakaoTechCampus 3rd Cohort - Frontend',
       subTitle: 'Outstanding Kookies of Stage 2 (Top Performance Award)',
       startedAt: '2025-04',
       endedAt: '2025-11',
