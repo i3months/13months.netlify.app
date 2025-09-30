@@ -17,6 +17,11 @@ const etc: IEtc.Payload = {
       startedAt: '2025-09',
     },
     {
+      title: 'Chungnam National University 2025 SW-IT Contest Organizer',
+      subTitle: 'Designed and reviewed algorithmic problems, supported contest operations',
+      startedAt: '2025-09',
+    },
+    {
       title: '43rd Advanced Data Analytics Semi-Professional (ADsP)',
       subTitle: 'Advanced Data Analytics Semi-Professional',
       startedAt: '2024-11',
