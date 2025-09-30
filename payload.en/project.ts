@@ -10,21 +10,27 @@ const project: IProject.Payload = {
       where: 'IWAZ (South Korea)',
       descriptions: [
         {
-          content:            
-            'Migrated data from TIBERO to MariaDB.',
+          content: 'Migrated data from TIBERO to MariaDB.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Indexing migrated data and implemented partitioning for statistical data.' }
+            {
+              content: 'Indexing migrated data and implemented partitioning for statistical data.',
+            },
           ],
         },
         {
-          content:
-            'Optimized queries from TIBERO to MariaDB.',
+          content: 'Optimized queries from TIBERO to MariaDB.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Implemented hierarchical queries and sorting using WITH RECURSIVE and SORT_PATH.' },
-            { content: 'Refactored high-cost statistical queries, improving performance (873.231ms → 214.245ms).' },                                    
-          ]
+            {
+              content:
+                'Implemented hierarchical queries and sorting using WITH RECURSIVE and SORT_PATH.',
+            },
+            {
+              content:
+                'Refactored high-cost statistical queries, improving performance (873.231ms → 214.245ms).',
+            },
+          ],
         },
         {
           content:
@@ -39,7 +45,7 @@ const project: IProject.Payload = {
       where: 'IWAZ (South Korea)',
       descriptions: [
         {
-          content:            
+          content:
             'Integrated Redis for floating banners and developed APIs to connect the back office with the DBpia service.',
         },
         {
@@ -65,46 +71,79 @@ const project: IProject.Payload = {
         {
           content:
             'Analyzed legacy source code written in C# and C++ and designed a new web-based system.',
-        },  
+        },
         {
           content:
             'Utilized Git Flow strategy for seamless collaboration, analyzed user requirements and system processes.',
         },
         {
-          content:
-            'Set up and managed project configurations and operations.',
+          content: 'Set up and managed project configurations and operations.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Configured Spring Security with custom filters and authenticators, implemented LDAP-based login.' },
-            { content: 'Resolved DataSource TLS compatibility issue with SQL Server 2005.' },                        
-            { content: 'Fixed incompatibility between the latest Spring Batch version and SQL Server 2005 sequences.' },                                                         
-            { content: 'Established certificates and domains, set up reverse proxy routing for development and production servers using NGINX.' },
-            { content: 'Deployed and managed Tomcat on Windows Server, resolved symbolic link-related network drive permission issues.' },
-            { content: 'Configured Tomcat JVM memory and implemented redundancy for production and development servers.' },
-            { content: 'Handled penetration testing issues, including XSS, CSRF, and sensitive data masking.' },
-            { content: "Utilized SQL Server's Linked Server to remotely call stored procedures from different locations." },
-          ],         
-        },    
+            {
+              content:
+                'Configured Spring Security with custom filters and authenticators, implemented LDAP-based login.',
+            },
+            { content: 'Resolved DataSource TLS compatibility issue with SQL Server 2005.' },
+            {
+              content:
+                'Fixed incompatibility between the latest Spring Batch version and SQL Server 2005 sequences.',
+            },
+            {
+              content:
+                'Established certificates and domains, set up reverse proxy routing for development and production servers using NGINX.',
+            },
+            {
+              content:
+                'Deployed and managed Tomcat on Windows Server, resolved symbolic link-related network drive permission issues.',
+            },
+            {
+              content:
+                'Configured Tomcat JVM memory and implemented redundancy for production and development servers.',
+            },
+            {
+              content:
+                'Handled penetration testing issues, including XSS, CSRF, and sensitive data masking.',
+            },
+            {
+              content:
+                "Utilized SQL Server's Linked Server to remotely call stored procedures from different locations.",
+            },
+          ],
+        },
         {
-          content:
-            'Research Paper Metadata Production System Development',
+          content: 'Research Paper Metadata Production System Development',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Developed a PDF splitting algorithm using PDFBox, ensuring differentiation between logical and physical pages in pdf.' },
-            { content: 'Integrated ERP and DCM services using Spring Batch, implemented business logic based on Job / Step.' },                        
-            { content: 'Developed a temporary storage system for research papers to periodically save input data.' },                                                         
-            { content: 'Implemented an email-based research paper author search feature using Elasticsearch.' },
-          ],         
-        },  
+            {
+              content:
+                'Developed a PDF splitting algorithm using PDFBox, ensuring differentiation between logical and physical pages in pdf.',
+            },
+            {
+              content:
+                'Integrated ERP and DCM services using Spring Batch, implemented business logic based on Job / Step.',
+            },
+            {
+              content:
+                'Developed a temporary storage system for research papers to periodically save input data.',
+            },
+            {
+              content:
+                'Implemented an email-based research paper author search feature using Elasticsearch.',
+            },
+          ],
+        },
         {
-          content:
-            'Efficiency Improvements & Service Optimization',
+          content: 'Efficiency Improvements & Service Optimization',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Revamped the research paper production system, reducing metadata processing time (30 min → 15 min for 50 papers).' },
-            { content: 'Optimized batch processing, cutting publication time (3 days → 1 day).' },                        
-          ],         
-        },  
+            {
+              content:
+                'Revamped the research paper production system, reducing metadata processing time (30 min → 15 min for 50 papers).',
+            },
+            { content: 'Optimized batch processing, cutting publication time (3 days → 1 day).' },
+          ],
+        },
       ],
     },
     {
@@ -114,28 +153,24 @@ const project: IProject.Payload = {
       where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
-          content:
-            'Implemented conditional branching surveys using SurveyJS.',
+          content: 'Implemented conditional branching surveys using SurveyJS.',
         },
         {
           content:
             'Transmitted video and audio data via WebSocket for real-time communication with the AI inference server.',
         },
         {
-          content:
-            'Visualized inference results in real-time using ApexCharts and D3.js.',
+          content: 'Visualized inference results in real-time using ApexCharts and D3.js.',
         },
         {
-          content:
-            'Set up system execution environment and deployed images using Docker.',
+          content: 'Set up system execution environment and deployed images using Docker.',
         },
         {
           content:
             'Developed JWT authentication and CRUD functionality for participants and test results using FastAPI.',
         },
         {
-          content:
-            'Built and developed the frontend using Vue.',
+          content: 'Built and developed the frontend using Vue.',
         },
       ],
     },
@@ -146,8 +181,7 @@ const project: IProject.Payload = {
       where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
-          content:
-            'Unified non-registered student and faculty data into a single table.',
+          content: 'Unified non-registered student and faculty data into a single table.',
         },
         {
           content:
@@ -158,8 +192,7 @@ const project: IProject.Payload = {
             'Developed a Spring Boot and JPA-based back-office system and integrated with the ETRI School service.',
         },
         {
-          content:
-            "Deployed and managed the system on ETRI's internal servers using Docker.",
+          content: "Deployed and managed the system on ETRI's internal servers using Docker.",
         },
       ],
     },
@@ -170,20 +203,18 @@ const project: IProject.Payload = {
       where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
-          content:
-            'Developed batch business logic for drone data storage.',
+          content: 'Developed batch business logic for drone data storage.',
           weight: 'MEDIUM',
-            descriptions: [
-              { content: 'Traversed directories using DFS and stored image metadata.' },
-              { content: 'Detected changes at the project level and updated only modified data.' },
-              { content: 'Used AtomicBoolean api to ensure only one scheduler runs at a time.' },
-              { content: 'Handled scheduler tasks asynchronously with CompletableFuture api.' },
-              { content: 'Conducted performance benchmarking tests considering JVM warm-up.' },
-            ]
+          descriptions: [
+            { content: 'Traversed directories using DFS and stored image metadata.' },
+            { content: 'Detected changes at the project level and updated only modified data.' },
+            { content: 'Used AtomicBoolean api to ensure only one scheduler runs at a time.' },
+            { content: 'Handled scheduler tasks asynchronously with CompletableFuture api.' },
+            { content: 'Conducted performance benchmarking tests considering JVM warm-up.' },
+          ],
         },
         {
-          content:
-            'Visualized image data on a map using React.',
+          content: 'Visualized image data on a map using React.',
         },
         {
           content:
@@ -198,8 +229,7 @@ const project: IProject.Payload = {
       where: 'CHIRON SOFT (South Korea)',
       descriptions: [
         {
-          content:
-            'Redesigned the main page and developed the back-office system.',
+          content: 'Redesigned the main page and developed the back-office system.',
         },
         {
           content:
@@ -210,13 +240,10 @@ const project: IProject.Payload = {
             'Visualized supercomputer usage statistics using D3.js and optimized queries (6.376s → 0.430s).',
         },
         {
-          content:
-            'Implemented a WebSocket-based broadcast feature for connected users.',
+          content: 'Implemented a WebSocket-based broadcast feature for connected users.',
         },
       ],
     },
-
-    
   ],
 };
 
