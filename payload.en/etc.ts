@@ -11,6 +11,12 @@ const etc: IEtc.Payload = {
       endedAt: '2025-11',
     },
     {
+      title: 'AI Career School Startup Hackathon L:AUNCH Completion',
+      subTitle:
+        'Practical AI-driven Startup Program hosted by Root Impact and sponsored by Google.org',
+      startedAt: '2025-09',
+    },
+    {
       title: '43rd Advanced Data Analytics Semi-Professional (ADsP)',
       subTitle: 'Advanced Data Analytics Semi-Professional',
       startedAt: '2024-11',

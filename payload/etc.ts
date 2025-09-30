@@ -11,6 +11,11 @@ const etc: IEtc.Payload = {
       endedAt: '2025-11',
     },
     {
+      title: 'AI 커리어스쿨 창업톤 L:AUNCH 수료',
+      subTitle: 'Google.org 후원, Root Impact 주최의 실전형 AI 활용 창업 프로그램',
+      startedAt: '2025-09',
+    },
+    {
       title: '제43회 데이터분석 준전문가 (ADsP)',
       subTitle: 'Advanced Data Analytics Semi-Professional',
       startedAt: '2024-11',
