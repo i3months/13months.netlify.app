@@ -5,6 +5,16 @@ const presentation: IAward.Payload = {
 
   list: [
     {
+      title: '충남대학교 생성형 인공지능 챌린지',
+      subTitle: '장려상 수상',
+      at: '2025-09',
+      descriptions: [
+        {
+          content: 'LangChain을 사용해 강의자료 자동 생성 도구 "PPTree" 개발',
+        },
+      ],
+    },
+    {
       title: '충남대학교 알고리즘 경진대회 - DevDay',
       subTitle: '동상 2회 / 장려상 1회',
       at: '2025-06',
