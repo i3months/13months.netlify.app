@@ -11,7 +11,7 @@ const presentation: IAward.Payload = {
       descriptions: [
         {
           content:
-            'Developed "PPTree," an automated lecture material generation tool using LangChain.',
+            'Developed "PPTree" an automated lecture material generation tool using LangChain.',
         },
       ],
     },
