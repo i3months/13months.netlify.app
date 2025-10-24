@@ -5,6 +5,17 @@ const presentation: IAward.Payload = {
 
   list: [
     {
+      title: 'Chungnam National University Generative AI Challenge',
+      subTitle: 'Encouragement Prize',
+      at: '2025-09',
+      descriptions: [
+        {
+          content:
+            'Developed "PPTree," an automated lecture material generation tool using LangChain.',
+        },
+      ],
+    },
+    {
       title: 'Chungnam National University Algorithm Competition – DevDay',
       subTitle: '2× Bronze Prize / 1× Encouragement Prize',
       at: '2025-06',
