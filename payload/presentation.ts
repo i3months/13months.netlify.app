@@ -45,7 +45,7 @@ const presentation: IPresentation.Payload = {
           ],
         },
         {
-          content: 'Under Review · 포스터 발표 예정 (2026.10.15)',
+          content: 'Accepted · 포스터 발표 예정 (2026.10.15)',
         },
       ],
     },

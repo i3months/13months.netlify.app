@@ -36,7 +36,7 @@ const presentation: IAward.Payload = {
             'Developed a model predicting sleep and well-being indicators from lifelog data.',
         },
         {
-          content: 'Paper submitted to ICTC 2026 (under review).',
+          content: 'Paper accepted to ICTC 2026.',
         },
       ],
     },

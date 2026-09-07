@@ -45,7 +45,7 @@ const presentation: IPresentation.Payload = {
           ],
         },
         {
-          content: 'Under review · Poster presentation anticipated (2026.10.15)',
+          content: 'Accepted · Poster presentation anticipated (2026.10.15)',
         },
       ],
     },
